@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <p id="demo"></p>
+    <p id id="demo2"></p>
+</head>
+
+<body>
+    <script>
+        // const fruit = ["Banana", "orange", "apple"];
+        // document.getElementById("demo").innerHTML = fruit;
+        // Join Mathod///
+
+        // const fruit = ["apple", "Banana", "beer"];
+        // document.getElementById("demo").innerHTML = fruit.join("Rakhi", "chauhan");
+
+        // pop and push mathod //
+        // const animal = ["cat", "cow", "nish"];
+        // document.getElementById("demo").innerHTML = animal.pop();
+        // document.getElementById("demo").innerHTML = animal;
+
+        // push mathod //
+
+        // const lastName = ["Rakhi", "chauhan", "Madhu", "chauhan"];
+        // document.getElementById("demo").innerHTML = lastName.push("nish");
+        // document.getElementById("demo").innerHTML = lastName;
+
+        /// shifting mathod //
+        // const fruitClass = ["kiwi", "orange", "Mango", "juice", "apple"]; // shift mathod remove the element from first side  and it return the
+        // document.getElementById("demo").innerHTML = fruitClass.shift(); /// shift out value
+        // document.getElementById("demo").innerHTML = fruitClass;
+
+        /// unshift mathod //
+        // const familyMember = ["mom", "dad", " bro", " sis"];
+        // document.getElementById("demo").innerHTML = familyMember.unshift("grandMother");
+        // document.getElementById("demo").innerHTML = familyMember;
+
+        /// changing element  using their index number //
+        // const fruitClass = ["kiwi", "orange", "mango", "juice", "pineapple"];  
+        // document.getElementById("demo").innerHTML = fruitClass[0] = "realjuice";
+        // document.getElementById("demo").innerHTML = fruitClass;
+
+        /// deleting element // Note Array can be deleted using the js operator Delete//
+        // const className = ["MCA", "BCA", " BBA", "MBA"];
+        // document.getElementById("demo").innerHTML = "The first class is : " + delete className[1]
+        // document.getElementById("demo").innerHTML = "The first class is :" + className;
+        // length property //
+        // const cuteName = ["nishu", "nish", "riyu", " chauahn"];
+        // document.getElementById("demo").innerHTML = length.cuteName("priya")
+        // document.getElementById("demo").innerHTML = cuteName;
+
+        /// splicing mathod ///
+
+        // splice mathod can use be used to add new element slice (Start , End)
+
+        // var r = ["Rakhi", " chauhan", "riya", "chauhan", "madhu", "chauhan"];
+        // document.getElementById("demo").innerHTML = r.splice(1, 3,"nish" , "vats");
+        // document.getElementById("deno").innerHTML = r;
+
+        // let months = ["January", "February", "Monday", "Tuesday"];
+        // let days = months.splice(2);
+        // console.log(days);
+
+        // sliceing mathod in js // slice out a piece of an array into a new array.
+        // const number = [1, 2, 3, 5, 6, 8];
+        // const newArray = number.slice(1, 4);
+        // document.getElementById("demo").innerHTML = number;
+        // document.getElementById("demo").innerHTML = newArray;
+
+        /// filter mathod in JS //
+        // filter(function Name)
+        // var age = [23, 9, 10, 5, 8, 15, 50, 60];
+        // document.getElementById("demo").innerHTML = age;
+        // var b = age.filter(checkAdult);
+        // document.getElementById("demo").innerHTML = b;
+
+        // function checkAdult(age) {
+        //     return age >= 18;
+
+        // }
+
+        // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+        // const result = words.filter(word => word.length > 6);
+
+        // console.log(result);
+
+        /// 2nd ex of filter mathod // 
+
+
+        // const arrayValue = [2, 5, 1, 3, 5, 7, 8, 9, 10, 11, 13, 16, 1, 5, 54, 54556, 55];
+
+        // function isPrime(num) {
+        //     for (let i = 2; num > i; i++) {
+        //         if (num % i == 0) {
+        //             return false;
+        //         }
+        //     }
+        //     return num > 1;
+        // }
+        // console.log(arrayValue.filter(isPrime));
+
+        // var marks = [25, 80.90, 100, 110];
+
+        // function check(value) {
+        //     return value > 30;
+        // }
+
+        // document.getElementById("demo").innerHTML = marks.filter(check);
+
+        // function test(element, index, array) {
+        //     return element >= 25;
+        // }
+        // document.writeln([21, 32, 21, 43].filter(test));
+
+        // Map Mathod in JS //
+        // map() mathod calls the provided function once for each element in the array, in order;
+        // array.map (function(currentValue, index , arr), thisValue)
+
+
+        // old mathod
+        // const oldArr = ["Rakhi", "chauhan", " riya"];
+        // document.getElementById("demo").innerHTML = oldArr[0];
+        // document.getElementById("demo").innerHTML = oldArr[1];
+        // document.getElementById("demo").innerHTML = oldArr[2];
+        // use Map() mathod
+        // const oldArr = ["Rakhi", "chauhan", " riya"];
+        // const newArr = oldArr.map(function(cvalue) {
+        //     return cvalue;
+        // });
+        // document.getElementById("demo").innerHTML = newArr;
+
+        // const studentData = [{
+        //     id: 1,
+        //     name: "Rakhi",
+        //     degree: "MCA"
+        // }, {
+        //     id: 2,
+        //     name: "nish",
+        //     degree: "MCA"
+        // }, {
+        //     id: 3,
+        //     name: "Mohit",
+        //     degree: "MCA"
+        // }, ];
+        // const newData = studentData.map((cvalue) => {
+        //     return 
+        // });
+    </script>
+</body>
+
+</html>

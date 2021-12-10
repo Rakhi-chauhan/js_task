@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>how to call function onclick in javascript</title>
+</head>
+<body>
+    <input type="number"  id="num">
+    <input type="number"  id="num1">
+    <p id="res">results</p>
+    
+
+    <input type="button" value="Addition" onclick="add()">
+    <input type="button" value="subtraction" onclick="sub()">
+    <input type="button" value="multiplication" onclick="mul()">
+    <input type="button" value="Division" onclick="div()">
+ 
+    <script>
+    function add(){
+        var n1 = parseInt(document.getElementById("num").value);
+        var n1 = parseInt(document.getElementById("num1").value);
+        var sum = n1+n2;
+document.getElementById("res").innerHTML = sum;
+    }
+        function sub(){
+        var n1 = parseInt(document.getElementById("num").value);
+        var n1 = parseInt(document.getElementById("num1").value);
+        var sub = n1-n2;
+document.getElementById("res").innerHTML = sub;
+    }
+    function mul(){
+        var n1 = parseInt(document.getElementById("num").value);
+        var n1 = parseInt(document.getElementById("num1").value);
+        var mul = n1*n2;
+document.getElementById("res").innerHTML = mul;
+    }
+    function div(){
+        var n1 = parseInt(document.getElementById("num").value);
+        var n1 = parseInt(document.getElementById("num1").value);
+        var div = n1/n2;
+document.getElementById("res").innerHTML = div;
+    }
+</script>
+</body>
+</html>

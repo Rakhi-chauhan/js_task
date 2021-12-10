@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is my Heading</h1>
+        <p id="para">When the user clicks the paragraph element, the text of the paragraph gets changed.</p>
+
+        <button id="btn" onclick="hide()">show/hide</button>
+        <script>
+            function hide() {
+                let btn = document.getElementById("btn");
+                let para = document.getElementById("para");
+                if (para.style.display != "none") {
+                    para.style.display = "none";
+                } else {
+
+
+                    para.style.display = "block";
+                }
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>

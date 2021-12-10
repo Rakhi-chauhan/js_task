@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- <p>click the button to display a date after changing</p>
+    <button onclick="myFunction()">Try It</button>
+    <p id="demo"></p> -->
+
+    <!-- <button onclick="sum()">sum</button> -->
+    <!-- <button onclick="name()">inputName</button> -->
+    <script>
+        // // Data typs in js
+        // // var myName = ("Rakhi");
+        // // console.log(myName);
+        // //typr of operator
+        // // Data typs in js
+        // // var myName = ("Rakhi");
+        // // var myAge = 22;
+        // // console.log(typeof(myAge));
+
+        // // var iamrakhi = false;
+        // // console.log(iamrakhi);
+        // // console.log(typeof(iamrakhi));
+        // //challege
+        // //console.log(10 + "20");
+        // //console.log(9 - "5");
+        // //  console.log("java  " + "script");
+        // // console.log("" + "0");
+        // // console.log("rakhi" - "nish");
+        // // console.log(true + true);
+        // // console.log(true + false);
+        // // console.log(true + true);
+        // // console.log(false - true);
+        // // var iamuseless = null;
+        // // console.log(iamuseless);
+        // // var myNum = 7082804082;
+        // // var myNickname = "moto";
+        // // console.log(isNaN(myNum));
+        // // console.log(isNaN(myNickname));
+        // // if (isNaN(myNum)) {
+        // //     console.log("enter valid number");
+        // // }
+
+
+        // //challenge
+
+        // //operators
+
+        // // let x = 20;
+        // // let y = 30;
+        // // let z = x + y;
+        // // console.log(x + y);
+
+        // // let text1 = "rakhi";
+        // // let text2 = "riyu";
+        // // console.log("rakh     " + "riyu " + "nish " + "chauhan");
+        // // var x = 5;
+        // // var y = 5;
+        // // console.log("is both are equal or not " + x == y);
+
+
+
+        // // var num = 15;
+        // // var newnum = ++num
+        // // console.log(num);
+        // // console.log(newnum);
+
+        // // var num = 15;
+        // // var newnum = --num + 5;
+        // // console.log(num);
+        // // console.log(newnum);
+
+        // ///logical operator
+
+        // // 
+
+        // //exponentaion op
+
+        // // console.log(3 ** 3);
+        // //swapping
+        // // var a = 5;
+        // // var b = 10;
+        // // var c = b;
+        // // b = a;
+        // // a = c;
+        // // console.log("the value of a is " + a);
+        // // console.log("the value of a is " + b);
+
+        // // var a = 5;
+        // // var b = 10;
+        // // a = a + b;
+        // // b = a - b;
+        // // a = a - b;
+        // // console.log("the value of a is " + a);
+        // // console.log("the value of a is " + b);
+
+
+        // //square function
+        // function square(number) {
+        //     return number * number;
+
+        // }
+        // let number = square(4)
+        // console.log(number);
+
+        // //add two number
+
+        // function add(a, b) {
+        //     return a + b;
+
+        // }
+        // let x = 4;
+        // let y = 6;
+        // console.log(x + y);
+
+
+        //     var a = 5
+        //     var b = 4
+
+        //     function sum() {
+        //         alert(Number(a) + Number(b));
+
+        //     }
+        /// Task 1 /////
+
+
+
+
+
+        // function areaRectangle(a, b) {
+        //     let area = a * b;
+        //     return area;
+        // }
+
+        // function perimeterRectangle(a, b) {
+        //     let perimeter = 2 * (a + b);
+        //     return perimeter;
+        // }
+
+        // let a = 5;
+        // let b = 6;
+
+        // console.log("Area = " + areaRectangle(a, b));
+        // console.log("Perimeter = " + perimeterRectangle(a, b));
+
+
+        ////task 2 //////
+
+
+        // function my_Fun(val) {
+        //     console.log(val * val)
+        // }
+        // my_Fun(5);
+
+        /////task 3////
+
+
+
+        // function ShowMessage(firstName, lastName) {
+        //     alert("Hello " + firstName + " " + lastName);
+        // }
+
+        // ShowMessage("Rakhi", "chauhan");
+        // ShowMessage("Rakhi", "chauhan");
+        // ShowMessage(1000, 2000);
+
+        ////task 3 submit form /////
+
+
+
+        // function validtionForm() {
+        //     let x = document.forms["myForm"]["fname"].value;
+        //     if (x == "") {
+        //         alert("name must be filled out");
+        //         return false;
+        //     }
+        // }
+
+        // / /let myTweet = "dummy text";
+        // let myActualTweet = myTweet.slice(0, 5);
+        // console.log(myActualTweet);
+
+
+
+
+        // function FirstName() {
+        //     let Name = "Rakhi chauhan";
+        //     console.log("fullName " + Name);
+        // }
+        // FirstName();
+
+
+        // function Car() {
+        //     let carName = " audi";
+        //     console.log("My Choice Car" + carName);
+
+        // }
+        // Car();
+
+        // function myFun() {
+        //     let addNum = (4 + 3);
+        //     console.log("sum of two numbers " + addNum);
+        // }
+        // myFun();
+
+        // function mulNum() {
+        //     let mulNum = 2 * 2;
+        //     console.log("mul Nums of two nums " + mulNum);
+        // }
+        // mulNum();
+
+
+        // function celciousWheather() {
+        //     let celciousWheather = (5 / 9) * (66 - 32);
+        //     console.log("wheather of celcious" + celciousWheather);
+        // }
+        // celciousWheather();
+
+        // function msg() {
+        //     alert("hello! thhis is message");
+        // }
+
+        // msg()
+
+
+        //     function sayHello(name, age) {
+        //         document.write(name + " is " + age + " years old.");
+        //     }
+        //     sayHello();
+
+        // function mul(a, b) {
+        //     var total = a * b;
+        //     console.log(total);
+        // }
+        // var funexp = mul(30, 30);
+        // funexp; ///// fun variables;
+
+        // function mul(a, b) {
+        //     return total = a * b; ///return statement
+
+        // }
+        // var funexp = mul(30, 30);
+        // funexp;
+
+        // console.log("the mul of two num " + funexp);
+
+
+        // array in js /////////
+
+        // 1 Searching and filter in an Array//
+
+        // var myFriendNames = ["nish", "Mohit", "riyu", "arti","chauhan" ];
+        // console.log(myFriendNames.indexOf("nish", 0));
+
+        // var myFriendNames = ["nish", "Mohit", "riyu", "arti", "chauhan"];
+        // console.log(myFriendNames.lastIndexOf("arti", 3));
+
+
+        // var myFriendNames = ["chauhan", "riy", "deepak", "nish", "nitish", "govind", "madhu", "arti"];
+        // console.log(myFriendNames.includes("arti"));
+
+        // const prices = [200, 300, 400, 500, 700, 7877, 746, 76, 664];
+        // const findElement = prices.find((currentValue) => {
+        //     return currentValue < 500;
+        // });
+        // console.log(findElement);
+
+        // const prices = [200, 300, 400, 500, 600, 700, 800];
+        // const newPriceTag = prices.filter((elem, index) => {
+        //     return elem < 400;
+        // })
+        // console.log(newPriceTag);
+
+
+        // const monthsSort = ["march", "Dec", "feb", "jan", "may"];
+        // console.log(monthsSort.sort());
+
+        // const sortNum = [30, 40, 50, 60, 70, 80, 90];
+        // console.log(sortNum.sort());
+
+        // for each mathod ////
+        // const myFav = ["javascript", "react", "php", "python"]
+        //     // for (let x = 0; x < myFav.length; x++) {
+
+        // // }
+        // myFav.forEach(function(currentValue, index) {
+        //     console.log(index + " ---" + currentValue);
+        // })
+
+        // const newArr = [10, 30, 50, 70, 90];
+        // newArr.forEach(function(val, ind, arr) {
+        //     console.log(arr[0] + 100);
+
+        // })
+
+        //map arry mathod //
+
+        // const arrList = ['rakhi', 'chauhan', 'chauhan'];
+        // console.log(arrList[0]);
+        // console.log(arrList[1]);
+        // console.log(arrList[2]);
+        // const newarr = arrList.map(function(cvalue, i, arr) {
+        //     return cvalue
+        // });
+        // console.log(arrList);
+
+        // const studentdata = [{
+        //     id: 1,
+        //     name: "rakhi",
+        //     degree: "MCA"
+        // }, {
+        //     id: 1,
+        //     name: "nish",
+        //     degree: "MCA"
+        // }, {
+        //     id: 3,
+        //     name: "mohit",
+        //     degree: "MCA"
+        // }];
+        // const newData = studentdata.map((cvalue) => {
+        //     return 'My name is $  {cvalue.name}' , 'My highest degree is ${ cvalue.degree}'
+        // });
+        // console.log(newData);
+
+        // const studentData = ["rakhi", "chauhan", "ch", "madhu"];
+        // console.log(studentData[3]);
+
+        /// perform curd operation //////////
+
+        // const animals = ["pig", " goats", "sheep"];
+
+        // const count = animals.push("chicken")
+        // animals.push("chicken");
+        // console.log(animals);
+        // console.log(count)
+
+        ///// unshift mathods////
+
+        // const myNumber = [1, 2, 3, 5, 6];
+        // myNumber.unshift(7, 8);
+        // console.log(myNumber);
+
+        /////pop////mathod
+
+
+        // const removeElement = ['rakhi', 'nish', 'gourav', 'mohit', 'isha', 'arti'];
+        // removeElement.pop('arti');
+        // console.log(removeElement);
+
+        ////challenge ////
+        ///cuard operation///
+
+        // const month = ['jan', 'feb', 'march', 'april', 'may', ' june', 'july'];
+        // const newMonth = month.splice(4, 0, "dec");
+        // // console.log(month);
+        // console.log(newMonth);
+
+        // const month = ['jan', 'feb', 'march', 'april', 'may', ' june', 'july'];
+
+        // const indexofMonth = month.indexOf('march');
+
+        // if (indexofMonth !== -1) {
+        //     const updateMonth = month.splice(indexofMonth, 1, 'March');
+        //     console.log(month)
+        // } else {
+        //     console.log('no such data found');
+        // }
+
+
+        //// map mathod ///
+
+        // const array1 = [1, 2, 3, 4, 5, 6, 7, 20];
+        // let newArr = array1.map((currentElement, index, arr) => {
+        //     return currentElement > 9;
+
+        // })
+        // console.log(array1);
+        // console.log(newArr);
+
+        /////// challenge //
+
+        // let arr = [25, 3, 4, 5, 9];
+        // let arrSqr = arr.map((currentElement) => {
+        //     return Math.sqrt(currentElement);
+        // })
+        // console.log(arrSqr);
+
+        // let arr = [2, 3, 4, 6, 8];
+        // let arr2 = arr.map((currEle) => {
+        //     return currEle * 2;
+
+        // }).filter(() => {
+        //     return currEle > 10;
+
+        // })
+        // console.log(arr2);
+
+        /// reduce mathod///
+
+        // let arr = [2, 3, 4, 6, 8];
+        // let arr2 = arr.reduce((accumumlator, curEle, index, arr) => {
+        //     return accumumlator += curEle;
+        // })
+        // console.log(arr2);
+
+        //// String in js ///
+
+
+        // let myName = "rakh chauhan"
+        // console.log(myName.length);
+
+
+
+        // Escape character//
+
+        // let anySentence = "we are so good and \" god \" ";
+        // console.log(anySentence)
+
+
+        /// chellenge//
+
+
+
+        ///control statement///////
+
+        // var tomarrow = 'rain';
+        // if (tomarrow == 'rain') {
+        //     console.log("need raincot");
+        // } else {
+        //     console.log("no nedd rain cot")
+        // }
+
+        ///nested if else//
+
+        // var year = 2021;
+        // if (year % 4 === 0) {
+        //     if (year % 100 === 0) {
+        //         if (year % 400 === 0) {
+        //             console.log("The year " + year + " is a leap year");
+        //         } else {
+        //             console.log("The year " + year + " is not  a leap year");
+        //         }
+        //     } else {
+        //         console.log("The year " + year + " is a leap year");
+
+        //     }
+        // } else {
+        //     console.log("The year " + year + " is a not leap year");
+
+        // }
+
+        /// we have 5 falsy valu in javascript//
+        // 0 , "" , undefined,null,nan,false**
+        // if (score = 10) {
+        //     console.log("we lose the game");
+        // } else {
+        //     console.log("we won the game");
+        // }
+
+        // var age = 17;
+        // if (age >= 18) {
+        //     console.log("you are eligible to vote")
+
+        // } else {
+        //     console.log("you are not to eligible")
+
+        // }
+
+        // var area = "circle";
+        // var PI = 3.142,
+        //     l = 5,
+        //     b = 4,
+        //     r = 3;
+        // if (area == "circle") {
+        //     console.log("the area of circle is : " + PI * r ** 2);
+        // } else if (area == "triangle") {
+        //     console.log("the area of triangle is :" + (l * b / 2));
+        // } else if (area == reactangle) {
+        //     console.log("the area of reactangle is :" + (l * b));
+        // } else {
+        //     console.log("please enter valid data");
+        // }
+
+        //Tarnary operator///
+
+        /// variables = (condition) ? value1 : value2
+
+        // var age = 17;
+        // console.log((age >= 18) ? "you are eligible to vote" : "you are not to eligible");
+
+        ////// switch statement///////
+
+
+        // var area = "triangle";
+        // var PI = 3.142,
+        //     l = 5,
+        //     b = 4,
+        //     r = 3;
+        // switch (area) {
+        //     case 'circle':
+        //         console.log("the area of circle is : " + PI * r ** 2);
+        //     case 'triangle':
+        //         console.log("the area of triangle is " + l * b / 2);
+        //     case 'reactangle':
+        //         console.log("the area of reactangle is " + l * b);
+        //     default:
+        //         console.log("please enter valid data");
+        // }
+        // var num = 0;
+        // while (num <= 10) {
+        //     console.log(num);
+        //     num++
+        // }
+
+        //do while loop///
+
+        // var num = 0;
+        // do {
+        //     console.log(num);
+        //     num++
+        // } while (num <= 10);
+
+
+
+
+        // for (var num = 1; num <= 10; num++) {
+        //     var tableof = 8;
+        //     console.log(tableof + " * " + num + " = " + tableof * num);
+        // }
+
+        //// for loop /////
+
+        ////////////////////
+
+
+
+        ///// Date object in 4 way /////
+
+        // let currentDate = new Date();
+        // console.log(currentDate);
+
+        // console.log(new Date());
+
+        // console.log(new Date().toLocaleString);
+        // console.log(new Date().toString());
+        // console.log(Date.now()); // it retrun milliSec
+
+        // var date = new Date(2021, 0, 5);
+        // console.log(date);
+        // New Date and Date String ///
+
+        // var d = new Date("dec 6,2021,11:13:00");
+        // console.log(d);
+
+        //// Date mathods///
+
+        // const curDate = new Date();
+        // // console.log(curDate.toLocaleTimeString);
+        // console.log(curDate.getFullYear);
+        // console.log(curDate.getMonth);
+        // console.log(curDate.getDate);
+        // console.log(curDate.getDay);
+
+        /// how to set indivisual date //
+
+        // let today = new Date()
+        // let birthday1 = new Date('December 17, 1995 03:24:00')
+        // let birthday2 = new Date('1995-12-17T03:24:00')
+        // let birthday3 = new Date(1995, 11, 17) // the month is 0-indexed
+        // let birthday4 = new Date(1995, 11, 17, 3, 24, 0)
+        // let birthday5 = new Date(628021800000)
+        // console.log(today);
+
+        /// same output//
+
+
+        /// Time mathod///
+
+        // const curTime = new Date();
+        // console.log(curTime.getTime());
+        // console.log(curTime.getHours());
+        // console.log(curTime.getMinutes());
+        // console.log(curTime.getSeconds());
+        // console.log(curTime.getMilliseconds());
+
+        ///// how to set Indivisual time /////
+
+        // let curTime = new Date();
+        // // console.log(curTime.setTime());
+        // console.log(curTime.setHours(5));
+        // console.log(curTime.setMinutes(5));
+        // console.log(curTime.setSeconds(5));
+        // console.log(curTime.getMilliseconds(5));
+
+        // const date = new Date();
+        // const [month, day, year] = [date.getMonth(), date.getDate(), date.getFullYear()];
+        // const [hour, minutes, seconds] = [date.getHours(), date.getMinutes(), date.getSeconds()];
+        // console.log(date);
+
+        // function myFunction() {
+        //     var t = new Date();
+        //     t.setHours(5);
+        //     document.getElementById("demo").innerHTML = t;
+
+        // }
+
+        ///// math object /// 
+
+        ///math.celling mathod amd math.floor mathod//
+
+        //// DOM IN JS////
+
+
+
+        ///Events in JS ///
+
+        /// four way events in JS//
+        // 1 using inline events alert();
+        // 2 BY calling a function ;
+        // 3 using Inline events (HTML onclick="" property and element .onclick)
+        // 4 using events Listeners (AddEventsListner and IE's attachEvents)
+
+        ///creating object in js //
+        // let bioData = {
+        //     myName: "Rakhi chauhan",
+        //     myAge: 26,
+        //     getData: function() {
+
+        //     }
+        // }
+    </script>
+
+
+
+    </head>
+
+
+
+
+
+</body>
+
+</html>

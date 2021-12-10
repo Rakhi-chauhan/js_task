@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="res">results</p>
+    <input id="inputa" type="text">
+    <input id="inputb" type="text">
+    <input onclick="myfun()" type="submit"><br>
+    <input id="inputc" type="text">
+    <input id="inputd" type="text">
+    <input onclick="myfun1()" type="submit"><br>
+    <input id="inpute" type="text">
+    <input id="inputf" type="text">
+    <input onclick="myfun2()" type="submit"><br>
+    <input id="inputg" type="text">
+    <input id="inputh" type="text">
+    <input onclick="myfun3()" type="submit"><br>
+    
+    <script>
+        function myfun(){
+        let inputa = document.getElementById("inputa").value;
+        let inputb = document.getElementById("inputb").value;
+        let sum = Number(inputa)*Number(inputb);
+            alert("My input value is " + sum );
+            document.getElementById("res").innerHTML = sum;
+        }
+        function myfun1(){
+        let inputa = document.getElementById("inputc").value;
+        let inputb = document.getElementById("inputd").value;
+        let sub = Number(inputa)-Number(inputb);
+            alert("My input value is " + sub );
+            document.getElementById("res").innerHTML = sub;
+        }
+        function myfun2(){
+        let inputa = document.getElementById("inpute").value;
+        let inputb = document.getElementById("inputf").value;
+        let add = Number(inputa)+Number(inputb);
+            alert("My input value is " + add );
+            document.getElementById("res").innerHTML = add;
+        }
+        function myfun3(){
+        let inputa = document.getElementById("inputg").value;
+        let inputb = document.getElementById("inputh").value;
+        let div = Number(inputa)/Number(inputb);
+            alert("My input value is " + div );
+            document.getElementById("res").innerHTML = div;
+        }
+    </script>
+</body>
+</html>
